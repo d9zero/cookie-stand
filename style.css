@@ -1,0 +1,66 @@
+body {
+
+  background-color: indianred;
+  z-index: 0;}
+
+
+  #bar {
+      top: left;
+      height: 25%;
+      background-color: white;
+      background-image: url(https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.karenbrown.com%2Fwp-content%2Fuploads%2F2015%2F01%2Fbanner-Pacific-Northwest-Oregon-Mount-Hood-ohmygodtom-.jpg&f=1&nofb=1);
+      background-image: repeat;
+      z-index: 1;
+      float: fixed;
+      color: 
+    }
+
+  #fish {
+    top: left;
+    padding-left: 100px;
+    padding-top: 10px;
+    z-index: 3;
+  }
+
+  #plate {
+    border: thick double black;
+    background-color: tan;
+    height: 800px;
+    width: 600px;
+    /* position: relative; */
+    margin: 12px;
+    padding-block-start: 0em;
+  }
+
+  #spokesman {
+    max-height: 170px;
+    float: left;
+
+  }
+
+  #eggs {
+    border: thick double black;
+    height: 600px;
+    width:  400px;
+    /* margin: left 600px; */
+    position: absolute;
+    top: 400px;
+    left: 650px;
+    background-color: navajowhite;
+    padding: 5px;
+    
+  }
+
+  #formula {
+    height: 279px;
+    padding-left: 100px;
+  }
+
+    
+      
+
+
+  
+
+
+  
