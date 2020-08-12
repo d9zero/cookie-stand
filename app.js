@@ -26,18 +26,17 @@ var seattleStore = {
       this.dailySales.push(cookiesSales)
     }
   },
+  
   render: function(){
     var list = document.getElementById('Sales');
     var listElement = document.createElement('li');
-    listElement.text.content = this.name;
+    listElement.textcontent = this.name;
     list.appendChild(listElement);
-    
     for (var i = 0; i < storeHoursArr.length; i++){
-      var = time document.createElement('li');
+      var time = document.createElement('li');
       time.textCont = `${storeHoursArr[i]}: ${this.dailySales[i]} cookies`
-      list.appendChild(time);
-  },
-  }
+      list.appendChild(time); 
+    }
 
   
 Seattle.generateDailySales();
