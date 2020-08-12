@@ -1,13 +1,13 @@
 'use strict';
 
 
-let seattleStore = {
+Var seattleStore = {
    location: 'Seattle'
    minCusHour: 23,
    maxCusHour: 65,
    avgCookieSale: 6.3,
   //cookieJar: this.cookiePerHour(),
-
+  
   cookiesPerHour: function() {
     let cookiesPerHourArr = [];
     for (let i = 0; i < 14; i++) {

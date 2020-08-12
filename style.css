@@ -3,7 +3,14 @@ body {
   background-color: indianred;
   z-index: 0;}
 
-
+  #nav {
+      top: left;
+      height: 80px;
+      width: 80px;
+      background-color: white;
+      border: thick double black;
+      
+  }
   #bar {
       top: left;
       height: 25%;
@@ -44,7 +51,7 @@ body {
     width:  400px;
     /* margin: left 600px; */
     position: absolute;
-    top: 400px;
+    top: 498px;
     left: 650px;
     background-color: navajowhite;
     padding: 5px;
