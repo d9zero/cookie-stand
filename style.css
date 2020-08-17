@@ -1,7 +1,9 @@
 body {
 
   background-color: indianred;
-  z-index: 0;}
+  max-width: 1200px;
+  z-index: 0;
+}
 
   #nav {
       top: left;
@@ -35,7 +37,7 @@ body {
     height: 800px;
     width: 600px;
     /* position: relative; */
-    margin: 12px;
+    margin: 20px;
     padding-block-start: 0em;
   }
 
@@ -63,6 +65,29 @@ body {
     padding-left: 100px;
   }
 
+  #aboutus {
+    height: 220px;
+    width: 1200;
+    margin-left: 40px;
+    background-color: wheat;
+    padding: 10px;
+    text-align: center;
+
+  }
+
+  h1{
+    font-family: 'Russo One', sans-serif;
+  }
+
+  #platep{
+    font-family: 'Times New Roman', Times, serif;
+  }
+  #eggsp{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  #aboutusp{
+    font-family: 'Russo One', sans-serif;
+  }
     
       
 

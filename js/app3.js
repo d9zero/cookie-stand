@@ -78,5 +78,6 @@ form.addEventListener('submit', function(event){
   storeName.renderTableList();
 });
 
-
 // courtesy of collaborative efforts from Rolando Haynes, Kale Lesko, Stephon Knight, Matt Ravenmoore.
+
+
