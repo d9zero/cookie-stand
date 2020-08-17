@@ -16,13 +16,16 @@ parent.appendChild(tableRow)
 }
 
 
+
+console.log(customerPerHour)
+
 var seattle = new Location(23, 65, 6.3, 'seattle');
 var tokyo = new Location(3, 24, 1.2, 'tokyo');
 var dubai = new Location(11, 38, 3.7, 'dubai');
 var paris = new Location(20, 38, 2.3, 'paris');
 var lima = new Location(2, 16, 4.6, 'lima');
 
-fucntion generateHeader(){
+function generateHeader(){
   var tableRow = document.createElement('tr');
 
     for(var i=0; i<storeHoursArr.length; i++){
