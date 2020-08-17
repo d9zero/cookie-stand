@@ -77,9 +77,7 @@ form.addEventListener('submit', function(event){
   storeName.cookiesPerHour();
   storeName.renderTableList();
 });
-<<<<<<< HEAD
-=======
 
-
->>>>>>> fcbeea83017672dc79a84c6bbe40f14526dabf39
 // courtesy of collaborative efforts from Rolando Haynes, Kale Lesko, Stephon Knight, Matt Ravenmoore.
+
+
